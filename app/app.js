@@ -1,1 +1,1 @@
-budgetApp = angular.module('budgetApp', ['ngResource', 'ngRoute']);
+exampleApp = angular.module('exampleApp', ['ngResource', 'ngRoute']);

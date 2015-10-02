@@ -1,11 +1,15 @@
 {
-  "name": "budget-app",
+  "name": "example-app",
   "version": "1.0.0",
-  "description": "A simple budgeting app",
+  "description": "An example app",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Elliott Jenkins",
-  "license": "ISC"
+  "window": {
+    "title": "Example App",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "fullscreen": false,
+    "resizable": false
+  }
 }

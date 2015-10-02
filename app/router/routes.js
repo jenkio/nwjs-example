@@ -1,4 +1,4 @@
-budgetApp.config(function ($routeProvider) {
+exampleApp.config(function ($routeProvider) {
     $routeProvider
 
     .when('/', {
