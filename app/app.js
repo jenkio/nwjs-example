@@ -1,0 +1,1 @@
+budgetApp = angular.module('budgetApp', ['ngResource', 'ngRoute']);
