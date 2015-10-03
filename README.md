@@ -1,2 +1,8 @@
 # nwjs-example
-Example nwjs app
+An example nwjs app
+
+Will feature:
+- Authentication
+- Permissions
+- Remote Updating
+- Local Storage
