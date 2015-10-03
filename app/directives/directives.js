@@ -1,4 +1,4 @@
-app.directive('restrict', function(authService){
+exampeApp.directive('restrict', function(authService){
   return{
     restrict: 'A',
     priority: 100000,

@@ -4,12 +4,11 @@ exampleApp.config(function ($routeProvider) {
     .when('/', {
         templateUrl: 'views/home.html',
         controller: 'mainController',
-        roles: ['admin']
+        roles: ['user']
         
     }).when('/login', {
         templateUrl: 'views/login.html',
-        controller: 'loginController',
-        roles: ['guest']
+        controller: 'loginController'
 
     }).otherwise({
         redirectTo: '/'

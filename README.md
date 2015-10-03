@@ -6,3 +6,8 @@ Will feature:
 - Permissions
 - Remote Updating
 - Local Storage
+
+Libraries:
+- AngularJS
+- Twitter Bootstrap
+- NeDB (eventually)
