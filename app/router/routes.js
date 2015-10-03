@@ -3,7 +3,14 @@ exampleApp.config(function ($routeProvider) {
 
     .when('/', {
         templateUrl: 'views/home.html',
-        controller: 'mainController'
+        controller: 'mainController',
+        roles: ['admin']
+        
+    }).when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'loginController',
+        roles: ['guest']
+
     }).otherwise({
         redirectTo: '/'
     });

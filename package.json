@@ -6,10 +6,15 @@
   "author": "Elliott Jenkins",
   "window": {
     "title": "Example App",
-    "toolbar": false,
+    "icon": "images/cow.png",
+    "toolbar": true,
     "frame": true,
     "position": "center",
     "fullscreen": false,
-    "resizable": false
+    "resizable": true,
+    "width": 800,
+    "height": 600,
+    "min_width": 600,
+    "min_height": 400
   }
 }
