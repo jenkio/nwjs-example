@@ -3,5 +3,5 @@ exampleApp.controller("mainController", function ($scope) {
 });
 
 exampleApp.controller("loginController", function ($scope) {
-	$scope.message = "Please Login";
+	
 });
